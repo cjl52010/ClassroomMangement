@@ -1,0 +1,8 @@
+/* pages/about/about.wxss */
+.content{
+  text-align: center;
+  margin-top: 300rpx;
+}
+.margintcss{
+  margin-bottom: 50rpx;
+}

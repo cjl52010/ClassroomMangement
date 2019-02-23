@@ -1,0 +1,36 @@
+/* pages/trial/trial.wxss */ 
+
+.row{
+  display: inline-flex;
+  margin-right: 60rpx;
+  
+ 
+}
+.row1{
+  margin-right: 80rpx;
+
+}
+.row2{
+  margin-right: 100rpx;
+
+}
+.navtitle{
+  font-size: 30rpx;
+  color: #77c9cc;
+  padding-left: 31rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-top: 2rpx solid #e5e5e5;
+  border-bottom: 2rpx solid #e5e5e5;
+
+}
+
+.trialresult{
+  font-size: 30rpx;
+  
+  padding-left: 31rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+}

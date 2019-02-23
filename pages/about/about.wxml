@@ -1,0 +1,7 @@
+<!--pages/about/about.wxml-->
+<view class='content'>
+<view class='margintcss'><text>Copyright © 华中大启明学院-TreeCi</text></view>
+
+<view><text>鄂ICP备18012874号</text></view>
+
+</view>

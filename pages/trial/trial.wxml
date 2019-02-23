@@ -1,0 +1,16 @@
+<view >
+
+  <view class='navtitle'>
+    <text class='row'>序号</text>
+    <text class='row'>借用日期</text>
+    <text class='row'>教室名称</text>
+    <text>活动名称</text>
+  </view>
+  <view wx:for="{{classroomRecord}}" wx:for-item="itemName" wx:for-index="key" bindtap='trailClassroomDetail' id="{{key}}" class='trialresult'>
+    <text class='row1'>{{key+1}}</text>
+    <text class='row'>{{itemName. DBClassroomApplicationRecord_ApplyDate}}</text>
+    <text class='row2'>{{itemName. DBClassroomApplicationRecord_ClassroomName}}</text>
+    <text>{{itemName. DBClassroomApplicationRecord_ActivityName}}</text>
+<!-- <button bindtap=' 'id="{{key}}">同意</button><button bindtap=' 'id="{{key}}">拒绝</button> -->
+</view>
+</view>

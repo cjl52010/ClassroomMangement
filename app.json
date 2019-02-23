@@ -1,0 +1,56 @@
+{
+  "pages":[
+   
+    "pages/login/login",
+    "pages/borrowNotes/borrowNotes",
+    "pages/query/query",
+    "pages/apply/apply", 
+    "pages/feedback/feedback",
+    "pages/personInfo/personInfo",
+    "pages/personInfoDetail/personInfoDetail",
+   
+    "pages/editInfo/editInfo",
+    "pages/trial/trial",
+    "pages/trialDetail/trialDetail",
+    "pages/about/about"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#76c8cb",
+    "navigationBarTitleText": "启明学院教室借用系统",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true
+  },
+  "tabBar": {
+    "color": "#FFF",
+    "selectedColor":"#5e5e5e",
+    "backgroundColor":"#76c8cb",
+    "list": [{
+      
+      "pagePath": "pages/query/query",
+      "text": "查询",
+      "iconPath": "img/搜索.png",
+      "selectedIconPath": "img/搜索.png"
+    }, 
+    {
+      "pagePath": "pages/personInfo/personInfo",
+      "text": "我的",
+      "iconPath": "img/我的.png",
+      "selectedIconPath": "img/我的.png"
+    },
+    {
+      "pagePath": "pages/trial/trial",
+      "text": "审核",
+      "iconPath": "img/审核.png",
+      "selectedIconPath": "img/审核.png"
+    },
+    {
+      "pagePath": "pages/about/about",
+      "text": "关于",
+      "iconPath": "img/关于.png",
+      "selectedIconPath": "img/关于.png"      
+
+    }]
+  }
+
+}

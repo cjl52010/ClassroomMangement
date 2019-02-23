@@ -1,0 +1,74 @@
+/* pages/personInfo/personInfo.wxss */ 
+.row{
+  display: inline-flex;
+  margin-right: 50rpx; 
+}
+.row1{
+  margin-right: 34rpx; 
+}
+.row2{
+  margin-right: 25rpx; 
+}
+.row3{
+  margin-right: 34rpx; 
+}
+.row4{
+  margin-right: 39rpx; 
+}
+.row5{
+  margin-right: 85rpx; 
+}
+.row6{
+  margin-right: 44rpx; 
+}
+
+.datecss{
+  padding-left: 32rpx;
+  padding-top: 24rpx;
+  
+  padding-bottom: 24rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+  font-size: 32rpx;
+}
+
+.borrowrecod{
+    text-align: center;
+  padding-top: 24rpx;
+  
+  padding-bottom: 24rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+  font-size: 32rpx;
+}
+.navtitle{
+  font-size: 30rpx;
+  color: #77c9cc;
+  padding-left: 31rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-top: 2rpx solid #e5e5e5;
+  border-bottom: 2rpx solid #e5e5e5;
+
+}
+.myrecod{
+  font-size: 28rpx;
+  
+  padding-left: 31rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.feedbackBtn{
+  background-color: #76c8cb;
+  color: #fff;
+  font-size: 18rpx;
+  height: 39rpx;
+  width: 79rpx;
+  float: right;
+  margin-right: 42rpx;
+  padding:0;
+  margin-top: 0;
+  border-radius: 0;
+}

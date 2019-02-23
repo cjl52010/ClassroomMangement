@@ -1,0 +1,13 @@
+<view class='container'>
+  <form bindsubmit='bindChooiceProduct'>
+    <view>
+      <button bindtap='bindChooiceProduct' class='feedbackBtn'>查找教室整理好后的图片</button>
+    </view>
+    <view style='height:auto' wx:for="{{productInfo.bannerInfo}}" wx:for-item="itemName">
+      <image src='{{itemName.url}}'></image>
+    </view>
+    <view>
+      <button bindtap='backtopersoninfo' class='feedbackBtn'>完成反馈</button>
+    </view>
+  </form>
+</view>

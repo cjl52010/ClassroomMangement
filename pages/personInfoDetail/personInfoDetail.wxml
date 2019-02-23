@@ -1,0 +1,27 @@
+<view>
+  <view class='title'>
+    <text >个人信息</text>
+  </view>
+  <view class='datecss'>
+    <text name="realName">姓名：{{realName}}</text>
+  </view>
+  <view class='datecss'>
+  <text name="studentNum">学号/人事编号/身份证号：{{studentNum}}</text>
+   
+  </view>
+  <view class='datecss'>
+  <text name="unit">单位：{{unit}}</text>
+    
+  </view>
+  <view class='datecss'>
+  <text name="telephoneNum">手机：{{telephoneNum}}</text>
+    
+  </view>
+  <view class='datecss'>
+  <text name="email">邮箱：{{email}}</text>
+    
+  </view>
+  <view >
+    <button form-type="submit" class='queryBtn' bindtap='editInfo'>修改</button>
+    </view>
+</view>

@@ -1,0 +1,49 @@
+.userpicradius{
+   overflow: hidden;
+   display: block;  
+   margin-top: 198rpx;
+  margin-left: 256rpx;
+  width: 209rpx;
+  height: 209rpx;
+  border-radius: 20rpx;
+  
+} 
+
+.nickname{
+  margin-top: 29rpx;
+  
+  font-size: 32rpx;
+  height: 118rpx;
+  text-align: center;
+  border-bottom: 2rpx solid #e5e5e5;
+  margin-bottom: 75rpx;
+}
+
+.loginBtn{
+  background-color: #76c8cb;
+  width: 658rpx;
+  height: 84rpx;
+  text-align: center;
+  margin-right: 31rpx;
+  margin-bottom: 28rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+
+}
+.tosysBtn{
+  background-color: #76c8cb;
+  width: 658rpx;
+  height: 84rpx;
+  text-align: center;
+  margin-right: 31rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+
+}
+
+.borderbottomcss{
+  height: 460rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+}

@@ -1,0 +1,33 @@
+<!--pages/query/query.wxml-->
+<view>
+<view class='title'>教室查询</view>
+
+
+  <form bindsubmit='queryclassroom'>
+    <view class='datecss'>
+      <picker mode="date" bindchange="binddatechange" value="{{date}}">日期：{{date}}</picker>
+    </view>
+    <view class='timeslotcss'>
+      <picker range="{{timeslot}}" bindchange="bindtimechange" value="{{index_time}}">时间段：{{timeslot[index_time]}}</picker>
+    </view>
+    <view>
+
+       
+
+      <button form-type='submit' class='queryBtn' hover-class='queryBtnhoverclass' >空闲教室查询</button>
+
+    </view>
+    <view class='navtitle'>
+      <text class='row'>序号</text>
+      <text class='row1'>教室号</text>
+      <text>容纳人数</text>
+    </view>
+    <view wx:for="{{classroom}}" wx:for-item="itemName" wx:for-index="key" class='queryresult'>
+      <text class='row2'>{{key+1}}</text>
+      <text class='row3'>{{itemName.DBClassroom_Name}}</text>
+      <text>{{itemName.DBClassroom_Content}}</text>
+      <button bindtap='query2appplyclassroomBtn' id="{{key}}" class='applyBtn'>申请</button>
+    </view>
+  </form>
+
+</view>

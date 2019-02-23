@@ -1,0 +1,33 @@
+/* pages/feedback/feedback.wxss */
+.buttonposition{
+
+  display: inline-flex;
+  width: 658rpx;
+  height: 84rpx;
+  background-color: #656565;
+  
+  
+  flex-direction: column;
+  color: #fff;
+  margin-top: 80rpx;
+
+}
+.container{
+  text-align: center;
+
+}
+
+.feedbackBtn{
+  display: inline-flex;
+  background-color: #76c8cb;
+  width: 658rpx;
+  height: 84rpx;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 28rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+  margin-top: 80rpx;
+
+}

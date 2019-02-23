@@ -1,0 +1,39 @@
+<view>
+  <form bindsubmit='formSubmit' bindreset='formReset'>
+    <view class='title'>完善个人信息</view>
+    <view class='datecss'>
+      <input name="realName" placeholder='姓名：'></input>
+    </view>
+    <view class='datecss'>
+      <input name="studentNum" placeholder='学号/人事编号/身份证号：'></input>
+    </view>
+    <view class='datecss'>
+      <picker name="unit" range="{{unit}}" mode="selector" bindchange="PickerUnitChange" value="{{index}}">单位：{{unit[index]}}</picker>
+    </view>
+    <view class='datecss'>
+      <input name="telephoneNum" placeholder='手机：' type='number' bindblur='PhoneNumber' ></input>
+    </view>
+    <view class='datecss'>
+      <input name="email" placeholder='邮箱：' bindblur='Mail'></input>
+    </view>
+    <view >
+    <button form-type="submit" class='queryBtn'>提交</button>
+    </view>
+
+  </form>
+
+  <!-- 黑框提示并消失 -->
+  <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    {{notice_str}}
+  </toast>
+  <!-- 确认框 及 提示框 -->
+  
+    <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="confirm_one" bindcancel="cancel_one">
+      确认提交么？
+    </modal>
+    <modal hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">
+       提示
+       清空成功 
+    </modal>
+  
+  </view>

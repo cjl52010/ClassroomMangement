@@ -1,0 +1,42 @@
+/* pages/borrowNotes/borrowNotes.wxss */
+.buttonposition{
+
+  display: inline-flex;
+  margin: auto 240rpx;
+  
+
+}
+
+.container1 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0;
+  box-sizing: border-box;
+  background: #6ed3cf;
+  font-size: 14px;
+  
+} 
+.container{
+  align-content: center;
+}
+.content{
+  font-size: 32rpx;
+  margin-top: 60rpx;
+  color: #909090;
+  margin-bottom: 120rpx;
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+}
+.argeeBtn{
+  background-color: #76c8cb;
+  width: 658rpx;
+  height: 84rpx;
+  text-align: center;
+  
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+}

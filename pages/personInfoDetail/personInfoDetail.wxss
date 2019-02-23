@@ -1,0 +1,23 @@
+/* pages/personInfoDetail/personInfoDetail.wxss */
+.datecss{
+  padding-left: 32rpx;
+  padding-top: 24rpx;
+  
+  padding-bottom: 24rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+  font-size: 32rpx;
+}
+.queryBtn{
+  background-color: #76c8cb;
+  width: 658rpx;
+  height: 86rpx;
+  text-align: center;
+  flex-direction: column;  
+  margin-bottom: 39rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+  margin-top: 44rpx;
+
+}

@@ -1,0 +1,49 @@
+<!--pages/apply/apply.wxml--> 
+<view >
+  <view class='title'>
+    <text >申请教室</text>
+  </view>
+  <form bindsubmit='formSubmit'>
+    <view class='datecss'>
+      <picker name="activityDate" mode="date" bindchange="binddatechange" value="{{date}}">日期：{{date}}</picker>
+    </view>
+    <view class='datecss'>
+      <picker name="timeslot" range="{{timeslot}}" bindchange="bindtimechange" value="{{index_time}}">时间段：{{timeslot[index_time]}}</picker>
+    </view>
+    <view class='datecss'>
+      <picker name="classroomName" range="{{classroomNames}}" bindchange="bindclassroomNumchange" value="{{index_classroomNames}}">教室号：{{classroomNames[index_classroomNames]}}</picker>
+    </view>
+
+    <view class='datecss'>
+      <input name="activityName" placeholder='活动名称：' type='text'></input>
+    </view>
+    <view class='datecss'>
+      <input name="activityPersonNum" placeholder='活动人数：' type='number'></input>
+    </view>
+    <view style='height:320rpx' class='datecss'>
+      <textarea name="activityDetail" placeholder='活动详细流程：' maxlength="-1" auto-focus='false'> </textarea>
+
+    </view>
+    <view><switch name="activityPublic" class='switchcss'>是否欢迎旁听</switch></view>
+    <view >
+      <button form-type='submit' class='buttonposition'>提交</button>
+    </view>
+  </form>
+
+
+
+  <toast hidden="{{toast1Hidden}}" bindchange="toast1Change">
+    {{notice_str}}
+  </toast>
+  <!-- 确认框 及 提示框 -->
+   
+    <modal title="确认" confirm-text="确定" cancel-text="取消" hidden="{{modalHidden}}" mask bindconfirm="confirm_one" bindcancel="cancel_one">
+      确认提交么？
+    </modal>
+    <modal class="modal" hidden="{{modalHidden2}}" no-cancel bindconfirm="modalChange2" bindcancel="modalChange2">
+      <text>提示</text> 
+       清空成功 
+    </modal>
+  
+
+</view>

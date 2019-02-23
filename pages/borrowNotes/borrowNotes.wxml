@@ -1,0 +1,12 @@
+<!--pages/borrowNotes/borrowNotes.wxml-->
+<view class='container'>
+  <view class='title'>
+    <text>借用须知</text>
+  </view>
+  <view class='content'>
+    <text>1、必须完善个人真实信息；2、教室使用结束后整理干净并拍照上传（在使用时间结束后48小时内上传才会返回积分）；3、有设备或家具损坏请及时报修</text>
+  </view>
+  <view>
+    <button bindtap='agree' class='argeeBtn'>我同意并会遵守</button>
+  </view>
+</view>

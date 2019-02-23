@@ -1,0 +1,43 @@
+<view >
+<view class='title'>
+<text>详细情况</text>
+</view>
+<form>
+  
+    <view class='datecss'>
+      <text>日期：{{date}}</text>
+    </view>
+    <view class='datecss'>
+      <text>时间：{{timeslot}}</text>
+    </view>
+    <view class='datecss'>
+      <text>教室号：{{classroomRecord.DBClassroomApplicationRecord_ClassroomName}}</text>
+    </view>
+    <view class='datecss'>
+      <text>申请人：{{username}}</text>
+    </view>
+    <view class='datecss'>
+      <text>申请人单位：{{classroomRecord.DBClassroomApplicationRecord_UnitName}}</text>
+    </view>
+    <view class='datecss'>
+      <text>活动名称：{{classroomRecord.DBClassroomApplicationRecord_ActivityName}}</text>
+    </view>
+    <view style='height:auto'  class='datecss'>
+      <text>活动详情：{{classroomRecord.DBClassroomApplicationRecord_ActivityDetail}}</text>
+    </view>
+    <view class='datecss'>
+      <text>初审状态：{{state}}</text>
+    </view>
+    <view class='datecss'>
+      <text>初审意见：{{classroomRecord.DBClassroomApplicationRecord_OpinionOfFirstTrial}}</text>
+    </view>
+    
+    <view style='height:160rpx' class='datecss'>
+      <input placeholder='审批意见：' name="opinion" bindinput='opinionInput'></input>
+    </view>
+    <button bindtap='refuseApply' class='buttonposition'>拒绝</button>
+    <button bindtap='agreeApply' class='buttonposition'>同意</button>
+    
+  
+</form>
+</view>

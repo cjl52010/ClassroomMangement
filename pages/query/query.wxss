@@ -1,0 +1,96 @@
+/* pages/query/query.wxss */ 
+.row{
+  display: inline-flex;
+  margin-right: 100rpx; 
+}
+.row1{
+  margin-right: 125rpx; 
+}
+.datecss{
+  padding-left: 32rpx;
+  padding-top: 24rpx;
+  
+  padding-bottom: 24rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+  font-size: 32rpx;
+}
+.timeslotcss{
+  font-size: 32rpx;
+  padding-left: 32rpx;
+  margin-top: 24rpx;
+  padding-bottom: 24rpx;
+  border-bottom: 2rpx solid #e5e5e5;
+
+}
+.queryBtn{
+  background-color: #76c8cb;
+  width: 658rpx;
+  height: 86rpx;
+  text-align: center;
+  flex-direction: column;  
+  margin-bottom: 39rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #fff;
+  margin-top: 44rpx;
+
+}
+
+.queryBtnhoverclass{
+  background-color: #fff;
+  width: 658rpx;
+  height: 86rpx;
+  text-align: center;
+  flex-direction: column;  
+  margin-bottom: 39rpx;
+  border-radius: 10rpx;
+  font-size: 36rpx;
+  color: #76c8cb;
+  margin-top: 44rpx;
+
+}
+
+.navtitle{
+  font-size: 30rpx;
+  color: #77c9cc;
+  padding-left: 31rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  border-top: 2rpx solid #e5e5e5;
+  border-bottom: 2rpx solid #e5e5e5;
+
+}
+
+.queryresult{
+  font-size: 32rpx;
+  
+  padding-left: 31rpx;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  
+  border-bottom: 2rpx solid #e5e5e5;
+}
+.applyBtn{
+  background-color: #76c8cb;
+  color: #fff;
+  font-size: 18rpx;
+  height: 39rpx;
+  width: 79rpx;
+  float: right;
+  margin-right: 42rpx;
+  padding:0;
+  margin-top: 0;
+  border-radius: 0;
+}
+.row2{
+  font-size: 32rpx;
+  margin-left: 20rpx;
+  margin-right: 130rpx;
+
+}
+.row3{
+  font-size: 32rpx;
+  margin-right: 160rpx;
+
+}

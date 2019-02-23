@@ -1,0 +1,33 @@
+<!--pages/personInfo/personInfo.wxml-->
+<view  >
+  <view class='datecss'>
+    <navigator url='../borrowNotes/borrowNotes'>借用须知</navigator>
+  </view>
+  <view class='datecss'>
+    <navigator url='../personInfoDetail/personInfoDetail'>完善个人信息</navigator>
+  </view>
+  <view class='datecss'>
+    <text>团队积分：</text>
+
+    <label>{{Score}}</label>
+  </view>
+  <view class='borrowrecod'>
+    <text>借用记录</text>
+  </view>
+  <view class='navtitle'>
+    <text class='row1'>借用日期</text>
+    <text class='row2'>时间段</text>
+    <text class='row3'>教室号</text>
+    <text class='row4'>初审</text>
+    <text class='row5'>终审</text>
+    <text >反馈</text>
+  </view>
+  <view wx:for="{{record}}" wx:for-item="itemName" wx:for-index="key" class='myrecod'>
+    <text class='row1'>{{itemName.DBClassroomApplicationRecord_ApplyDate}}</text>
+    <text class='row'>{{itemName.DBClassroomApplicationRecord_TimeSlot}}</text>
+    <text class='row6'>{{itemName.DBClassroomApplicationRecord_ClassroomName}}</text>
+    <text class='row4'>{{itemName.DBClassroomApplicationRecord_StateOfFirstTrial}}</text>
+    <text>{{itemName.DBClassroomApplicationRecord_StateOfLastTrial}}</text>
+    <button bindtap='feedback' id="{{key}}" class='feedbackBtn'>{{itemName.DBClassroomApplicationRecord_StateOfFeedback}}</button>
+  </view>
+</view>
